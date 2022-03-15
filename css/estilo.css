@@ -264,19 +264,3 @@ body {
   top: 0;
   width: 100%;
 }
-
- /*DESAFIO AGREGANDO ANIMACIONES ETC*/
-a {
-  text-decoration: none;
-}
-
-a:hover.menu__link{
-  color:#fff;
-  background-color: blue;
-  border: 3px solid green;
-  font-family:impact;
-}
-
-img:hover {
-  filter: blur(6px);
-}
