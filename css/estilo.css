@@ -1,0 +1,264 @@
+/*IMPORT*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+/*Variables*/
+:root {
+  --principal: #fff;
+  --font-primary: "inter", sans-serif;
+  --font-secondary: "Bowly One SC", cursive;
+}
+
+/* RESET css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+/*Globals*/
+
+html {
+  font-family: var(--font-primary);
+  color: var(--principal);
+  font-size: 62.5%;
+  height: 100%;
+}
+
+.head,
+.foot,
+.main {
+  padding: 1rem;
+}
+
+.head {
+  background-color: rgb(0, 0, 0);
+}
+/*Estilo FOOTER*/
+.foot {
+  background-color: rgb(0, 0, 0);
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*Estilo body*/
+body {
+  height: 100%;
+}
+/*GRID*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 92px auto 67px;
+  height: 100%;
+}
+/*Estilos main*/
+.main {
+  background-color: rgb(255, 255, 255);
+}
+/*Estilo Iconos y logo*/
+.instagram {
+  width: 4rem;
+}
+
+.whatsapp {
+  width: 3rem;
+}
+
+.logo {
+  width: 64px;
+}
+/*Estilo Menu*/
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-left: auto;
+  align-items: center;
+}
+
+.menu__link {
+  color: white;
+  margin: 0 5px;
+}
+/*Estilo NAV*/
+.nav {
+  display: flex;
+}
+
+.texto {
+  color: black;
+}
+
+.preheading {
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 29px;
+}
+
+.main_img_wrapper,
+.main_img {
+  width: 100%;
+}
+
+/*MEDIA QUERY*/
+@media (min-width: 1023px) {
+  .main_img_wrapper,
+  .main_img {
+    max-width: 400px;
+  }
+  .main_section {
+    display: flex;
+    align-items: center;
+  }
+
+  .main {
+    display: flex;
+  }
+}
+
+@media (min-width: 1439px) {
+  .main_img_wrapper,
+  .main_img {
+    max-width: 450px;
+  }
+  .main_section {
+    display: flex;
+    align-items: center;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.tituloubicacion {
+  padding: 10px;
+  color: black;
+}
+
+/*CONTACTO*/
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  border-radius: 2px;
+}
+
+.flex-inner li {
+  width: 100px;
+}
+
+.flex-inner {
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 120px;
+  color: black;
+}
+
+.imagenfondo1 {
+  background-image: url(../img/gimnasiocontacto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Productos*/
+
+.Productos__titulo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+}
+
+.imagenproducto {
+  max-height: 300px;
+}
+
+.sectionproductos {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 318px) {
+  .imagenproducto {
+    max-height: 330px;
+  }
+}
+
+@media (min-width: 330px) {
+  .imagenproducto {
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 1480px) {
+  .imagenproducto {
+    max-height: none;
+  }
+}
+
+/*Videos*/
+
+.Titulovideo {
+  color: black;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+  
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
