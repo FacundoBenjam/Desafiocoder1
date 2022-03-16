@@ -279,3 +279,9 @@ a:hover.menu__link{
 img:hover {
   filter: blur(6px);
 }
+
+div form {
+background-color: #f2f2f2;
+padding: 15px;
+}
+
