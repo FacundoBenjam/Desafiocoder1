@@ -1,0 +1,32 @@
+/*MEDIA QUERY*/
+@media (min-width: 1023px) {
+    .main_img_wrapper,
+    .main_img {
+      max-width: 400px;
+    }
+    .main_section {
+      display: flex;
+      align-items: center;
+    }
+  
+    .main {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1439px) {
+    .main_img_wrapper,
+    .main_img {
+      max-width: 450px;
+    }
+    .main_section {
+      display: flex;
+      align-items: center;
+    }
+  
+    .main {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+/*Productos*/
+
+.Productos__titulo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+}
+
+.sectionproductos {
+  display: flex;
+  justify-content: center;
+  .imagenproducto {
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 318px) {
+  .imagenproducto {
+    max-height: 330px;
+  }
+}
+
+@media (min-width: 330px) {
+  .imagenproducto {
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 1480px) {
+  .imagenproducto {
+    max-height: none;
+  }
+}

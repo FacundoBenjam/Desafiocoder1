@@ -1,0 +1,14 @@
+/*Estilo FOOTER*/
+.foot {
+  background-color: rgb(0, 0, 0);
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .instagram {
+    width: 4rem;
+  }
+  .whatsapp {
+    width: 3rem;
+  }
+}

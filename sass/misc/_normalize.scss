@@ -1,0 +1,43 @@
+/*IMPORT*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+/* RESET css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/*Globals*/
+
+html {
+  font-family: $font-primary;
+  color: $principal;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+.head,
+.foot,
+.main {
+  padding: 1rem;
+}
+
+.head {
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
