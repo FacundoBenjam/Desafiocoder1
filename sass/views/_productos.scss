@@ -4,7 +4,10 @@
   color: black;
   display: flex;
   justify-content: center;
-  font-size: medium;
+}
+
+.Texto_titulo {
+font-size: map-get($fontsize , Large );
 }
 
 .sectionproductos {
@@ -32,3 +35,5 @@
     max-height: none;
   }
 }
+
+
