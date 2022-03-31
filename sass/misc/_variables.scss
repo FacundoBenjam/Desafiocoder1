@@ -2,3 +2,18 @@
 $principal: #fff;
 $font-primary: "inter", sans-serif;
 $font-secondary: "Bowly One SC", cursive;
+
+$fontsize:(
+    Large: 30px,
+    Medium: 15px,
+    Small: 10px
+);
+
+@each $var, $val in $fontsize {
+    .fontsize--#{$var} {
+        font-size:#{$val} ;
+    }
+
+}
+
+

@@ -1,7 +1,16 @@
 /*Variables*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+.fontsize--Large {
+  font-size: 30px; }
+
+.fontsize--Medium {
+  font-size: 15px; }
+
+.fontsize--Small {
+  font-size: 10px; }
+
 /*GLOBALES*/
 /*IMPORT*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 /* RESET css */
 *,
 *::before,
